@@ -1,0 +1,72 @@
+// Place your settings in this file to overwrite the default settings
+//
+// Workspace settings              .vscode\settings.json
+// User      settings  data\user-data\User\settings.json
+//
+// Workspace settings override User settings!
+
+
+//    "git.enabled": false,
+//    "git.path": "C:\\PROGRA~1\\Git\\bin\\git.exe",
+//    "java.home": "C:\\java\\jdk",
+//    "python.pythonPath": "C:\\Users\\js16944\\Apps\\Anaconda3",
+
+{
+    "bookmarks.saveBookmarksInProject": true,
+    "breadcrumbs.enabled": false,
+    "breadcrumbs.filePath": "off",
+    "debug.allowBreakpointsEverywhere": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+
+    "editor.codeLens": false,
+    "editor.detectIndentation": false,
+    "editor.dragAndDrop": false,
+    "editor.folding": false,
+    "editor.fontSize": 16,
+    "editor.insertSpaces": true,
+    "editor.lineNumbers": "off",
+    "editor.minimap.enabled": false,
+    "editor.renderIndentGuides": false,
+    "editor.renderLineHighlight": "all",
+    "editor.renderWhitespace": "none",
+    "editor.suggestSelection": "first",
+    "editor.tabSize": 2,
+
+    "explorer.compactFolders": false,
+    "explorer.enableDragAndDrop": false,
+    "explorer.openEditors.visible": 0,
+
+    "files.eol": "\n",
+    "files.trimTrailingWhitespace": true,
+
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "java.configuration.updateBuildConfiguration": "disabled",
+    "java.import.gradle.enabled": false,
+    "java.import.gradle.wrapper.enabled": false,
+    "java.requirements.JDK11Warning": false,
+    "java.semanticHighlighting.enabled": true,
+
+    "scm.diffDecorations": "none",
+
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+
+    "update.mode": "manual",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.title": "${activeEditorLong}",
+
+
+    "workbench.colorCustomizations": { "editor.lineHighlightBackground": "#333333" },
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.list.openMode": "doubleClick",
+    "workbench.settings.editor": "json",
+    "workbench.startupEditor": "none",
+
+
+    "git.path":  "W:\\Git\\bin\\git.exe",
+    "java.home": "C:\\java\\jdk8",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+}
+
