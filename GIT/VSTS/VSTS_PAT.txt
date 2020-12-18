@@ -1,0 +1,31 @@
+
+Success!
+
+You have successfully added a new personal access token. Copy the token now!
+
+VSTS_command_line token
+
+clludnrlhhuxft4wbtbg7ozdwrexlllzvovuk42f6lxkydnff3ra
+
+Warning - Make sure you copy the above token now. We don't store it and you will not be able to see it again.
+
+
+
+/*
+https://dev.azure.com/hmsholdings/eCare/_git/eCare_API
+
+https://dev.azure.com/hmsholdings/eCare/_git/eCare_UI
+*/
+
+https://hmsholdings@dev.azure.com/hmsholdings/eCare/_git/eCare_API
+
+============================
+
+(old)
+
+Token name
+
+Git: https://hmsholdings.visualstudio.com/  on IRL104733
+
+Code (Read & write); Packaging (Read)
+

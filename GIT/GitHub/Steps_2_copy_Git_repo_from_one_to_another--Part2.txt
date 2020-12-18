@@ -1,0 +1,162 @@
+
+
+///////////    my sample output below 
+
+IRL104733.HMS.HMSY.COM
+Microsoft Windows [Version 10.0.17763.1158]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+W:\>md temp-directory
+
+W:\>cd temp-directory
+
+W:\temp-directory>dir
+ Volume in drive W is OSDisk
+ Volume Serial Number is FEAE-54BD
+
+ Directory of W:\temp-directory
+
+05/13/2020  05:13 PM    <DIR>          .
+05/13/2020  05:13 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  120,523,862,016 bytes free
+
+W:\temp-directory>cd\
+
+W:\>dir temp-directory
+ Volume in drive W is OSDisk
+ Volume Serial Number is FEAE-54BD
+
+ Directory of W:\temp-directory
+
+05/13/2020  05:13 PM    <DIR>          .
+05/13/2020  05:13 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  120,519,655,424 bytes free
+
+W:\>git config --list --show-origin
+file:C:/Users/c171437/.gitconfig        user.name=James Soper
+file:C:/Users/c171437/.gitconfig        user.email=c171437@hms.com
+file:C:/Users/c171437/.gitconfig        credential.helperselector.selected=store
+file:C:/Users/c171437/.gitconfig        http.sslverify=false
+
+W:\>git clone --mirror  https://c171437:clludnrlhhuxft4wbtbg7ozdwrexlllzvovuk42f6lxkydnff3ra@dev.azure.com/hmsholdings/eCare/_git/eCare_UI  temp-directory
+Cloning into bare repository 'temp-directory'...
+remote: Azure Repos
+remote: We noticed you're using an older version of Git. For the best experience, upgrade to a newer version.
+remote: Found 1969 objects to send. (586 ms)
+Receiving objects: 100% (1969/1969), 3.89 MiB | 12.36 MiB/s, done.
+Resolving deltas: 100% (400/400), done.
+
+W:\>cd temp-directory
+
+W:\temp-directory>git tag
+Release_09_06
+
+W:\temp-directory>git branch -a
+  B-26658
+  B-27323-SME0005447
+  B-27342_QA_Verifier_Screen_1
+  B-27364_Qa_ErrorTrack_summary
+  B-28577_Workforce_UI
+  B-29466_SME0006432_Upload_pop_up_is_displayed_Incorrectly
+  B_27364_Reports
+* Development
+  Development-revert-from-Release-Candidate
+  PRJ0091131_All_Status_Not_Displayed_In_Verification_Status_dropdown_after_uploading_file
+  PRJ0091467_Lens_Icon_In_Search_Field_Is_Displayed_In_Large_Size
+  PRJ0091468_Validation_Error_Message_Not_Displayed_When_Carriercodes_Entered_In_commas
+  PRJ0091701_Fix_position_sorting_and_date_format_for_eCare_2.0_reports
+  PRJ0091701_Fix_position_sorting_and_date_format_for_eCare_2.0_reports_v1
+  PRJ0091798_Add_dual_search_functionality_to_Open_Inventory_screen_by_context_and_carrier
+  PRJ0092175_Update_eCare_2.0_Batch_Allocation_Functionality
+  PRJ0092262_Missing_validation_batch_status_update
+  PRJ0092437_Ecare_Remove_results_after_Reset_in_Reports
+  PRJ0092781_Sorting_functionality_is_not_working_properly_for_certain_columns_for_reports
+  PRJ0093485_Modify_the_MyWork_queue_in_ECARE
+  PRJ0095488_MA#_Medicaid_Number_not_showing_in_VMS_in_some_context_codes
+  PRJ0095943_Ecare_Data_Validation_V2
+  Production
+  QA_Screen
+  Release-Candidate
+
+W:\temp-directory>git remote rm origin
+Note: Some branches outside the refs/remotes/ hierarchy were not removed;
+to delete them, use:
+  git branch -d B-26658
+  git branch -d B-27323-SME0005447
+  git branch -d B-27342_QA_Verifier_Screen_1
+  git branch -d B-27364_Qa_ErrorTrack_summary
+  git branch -d B-28577_Workforce_UI
+  git branch -d B-29466_SME0006432_Upload_pop_up_is_displayed_Incorrectly
+  git branch -d B_27364_Reports
+  git branch -d Development
+  git branch -d Development-revert-from-Release-Candidate
+  git branch -d PRJ0091131_All_Status_Not_Displayed_In_Verification_Status_dropdown_after_uploading_file
+  git branch -d PRJ0091467_Lens_Icon_In_Search_Field_Is_Displayed_In_Large_Size
+  git branch -d PRJ0091468_Validation_Error_Message_Not_Displayed_When_Carriercodes_Entered_In_commas
+  git branch -d PRJ0091701_Fix_position_sorting_and_date_format_for_eCare_2.0_reports
+  git branch -d PRJ0091701_Fix_position_sorting_and_date_format_for_eCare_2.0_reports_v1
+  git branch -d PRJ0091798_Add_dual_search_functionality_to_Open_Inventory_screen_by_context_and_carrier
+  git branch -d PRJ0092175_Update_eCare_2.0_Batch_Allocation_Functionality
+  git branch -d PRJ0092262_Missing_validation_batch_status_update
+  git branch -d PRJ0092437_Ecare_Remove_results_after_Reset_in_Reports
+  git branch -d PRJ0092781_Sorting_functionality_is_not_working_properly_for_certain_columns_for_reports
+  git branch -d PRJ0093485_Modify_the_MyWork_queue_in_ECARE
+  git branch -d PRJ0095488_MA#_Medicaid_Number_not_showing_in_VMS_in_some_context_codes
+  git branch -d PRJ0095943_Ecare_Data_Validation_V2
+  git branch -d Production
+  git branch -d QA_Screen
+  git branch -d Release-Candidate
+
+W:\temp-directory>git remote add origin https://james-hms:cf0e4a90c04a757e1e7af91b4b2808be8fbbaf17@github.com/hmsholdings/cav-ecare-ui.git
+
+W:\temp-directory>git remote -v
+origin  https://james-hms:cf0e4a90c04a757e1e7af91b4b2808be8fbbaf17@github.com/hmsholdings/cav-ecare-ui.git (fetch)
+origin  https://james-hms:cf0e4a90c04a757e1e7af91b4b2808be8fbbaf17@github.com/hmsholdings/cav-ecare-ui.git (push)
+
+W:\temp-directory>git push origin --all
+Enumerating objects: 1968, done.
+Counting objects: 100% (1968/1968), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (1551/1551), done.
+Writing objects: 100% (1968/1968), 3.88 MiB | 7.47 MiB/s, done.
+Total 1968 (delta 400), reused 1968 (delta 400)
+remote: Resolving deltas: 100% (400/400), done.
+To https://github.com/hmsholdings/cav-ecare-ui.git
+ * [new branch]      B-26658 -> B-26658
+ * [new branch]      B-27323-SME0005447 -> B-27323-SME0005447
+ * [new branch]      B-27342_QA_Verifier_Screen_1 -> B-27342_QA_Verifier_Screen_1
+ * [new branch]      B-27364_Qa_ErrorTrack_summary -> B-27364_Qa_ErrorTrack_summary
+ * [new branch]      B-28577_Workforce_UI -> B-28577_Workforce_UI
+ * [new branch]      B-29466_SME0006432_Upload_pop_up_is_displayed_Incorrectly -> B-29466_SME0006432_Upload_pop_up_is_displayed_Incorrectly
+ * [new branch]      B_27364_Reports -> B_27364_Reports
+ * [new branch]      Development -> Development
+ * [new branch]      Development-revert-from-Release-Candidate -> Development-revert-from-Release-Candidate
+ * [new branch]      PRJ0091131_All_Status_Not_Displayed_In_Verification_Status_dropdown_after_uploading_file -> PRJ0091131_All_Status_Not_Displayed_In_Verification_Status_dropdown_after_uploading_file
+ * [new branch]      PRJ0091467_Lens_Icon_In_Search_Field_Is_Displayed_In_Large_Size -> PRJ0091467_Lens_Icon_In_Search_Field_Is_Displayed_In_Large_Size
+ * [new branch]      PRJ0091468_Validation_Error_Message_Not_Displayed_When_Carriercodes_Entered_In_commas -> PRJ0091468_Validation_Error_Message_Not_Displayed_When_Carriercodes_Entered_In_commas
+ * [new branch]      PRJ0091701_Fix_position_sorting_and_date_format_for_eCare_2.0_reports -> PRJ0091701_Fix_position_sorting_and_date_format_for_eCare_2.0_reports
+ * [new branch]      PRJ0091701_Fix_position_sorting_and_date_format_for_eCare_2.0_reports_v1 -> PRJ0091701_Fix_position_sorting_and_date_format_for_eCare_2.0_reports_v1
+ * [new branch]      PRJ0091798_Add_dual_search_functionality_to_Open_Inventory_screen_by_context_and_carrier -> PRJ0091798_Add_dual_search_functionality_to_Open_Inventory_screen_by_context_and_carrier
+ * [new branch]      PRJ0092175_Update_eCare_2.0_Batch_Allocation_Functionality -> PRJ0092175_Update_eCare_2.0_Batch_Allocation_Functionality
+ * [new branch]      PRJ0092262_Missing_validation_batch_status_update -> PRJ0092262_Missing_validation_batch_status_update
+ * [new branch]      PRJ0092437_Ecare_Remove_results_after_Reset_in_Reports -> PRJ0092437_Ecare_Remove_results_after_Reset_in_Reports
+ * [new branch]      PRJ0092781_Sorting_functionality_is_not_working_properly_for_certain_columns_for_reports -> PRJ0092781_Sorting_functionality_is_not_working_properly_for_certain_columns_for_reports
+ * [new branch]      PRJ0093485_Modify_the_MyWork_queue_in_ECARE -> PRJ0093485_Modify_the_MyWork_queue_in_ECARE
+ * [new branch]      PRJ0095488_MA#_Medicaid_Number_not_showing_in_VMS_in_some_context_codes -> PRJ0095488_MA#_Medicaid_Number_not_showing_in_VMS_in_some_context_codes
+ * [new branch]      PRJ0095943_Ecare_Data_Validation_V2 -> PRJ0095943_Ecare_Data_Validation_V2
+ * [new branch]      Production -> Production
+ * [new branch]      QA_Screen -> QA_Screen
+ * [new branch]      Release-Candidate -> Release-Candidate
+
+W:\temp-directory>git push --tags
+Enumerating objects: 1, done.
+Counting objects: 100% (1/1), done.
+Writing objects: 100% (1/1), 189 bytes | 63.00 KiB/s, done.
+Total 1 (delta 0), reused 1 (delta 0)
+To https://github.com/hmsholdings/cav-ecare-ui.git
+ * [new tag]         Release_09_06 -> Release_09_06
+
+W:\temp-directory>
+

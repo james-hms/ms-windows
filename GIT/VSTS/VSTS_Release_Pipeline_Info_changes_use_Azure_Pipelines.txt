@@ -1,0 +1,4 @@
+##[warning]This pipeline is configured to use a 'Hosted' agent. 'Hosted' agents were recently updated 
+from Windows 2012 to Windows 2016. It is recommended that you update this pipeline to use an agent 
+from the 'Azure Pipelines' Agent pool. Learn more (https://aka.ms/removing-older-images-hosted-pools).
+Pool: Azure Pipelines

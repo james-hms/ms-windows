@@ -1,0 +1,35 @@
+https://www.atlassian.com/git/tutorials/git-move-repository
+
+I did the 'copy', not move!  
+
+steps ( I did, were 5.5 to 10 )
+
+USERID_VSTS   - your userid in VSTS
+token         - personal access token ( VSTS )
+
+USERID_GH     - your userid in GitHub
+token2        - personal access token ( GitHub )
+
+-----
+
+5.5   git clone --mirror  https://USERID_VSTS:token@dev.azure.com/hmsholdings/eCare/_git/eCare_UI  temp-directory
+      cd temp-directory
+
+6.    git tag
+      git branch -a
+
+7.    git remote rm origin
+
+8.    git remote add origin https://USERID_GH:token2@github.com/hmsholdings/cav-ecare-ui.git
+
+9.    git remote -v       ( Shows URLs of remote repositories )
+
+10.   git push origin --all
+      git push --tags
+
+11.   DO A PULL REQUEST!    (so master branch gets updated, with correct branch)
+
+      DevOps corrects this, because 'master' branch is empty, and thus we can't do the merge on our own.  (too different)
+      (DevOps deletes the blank, master branch, places it with your branch)
+
+-----

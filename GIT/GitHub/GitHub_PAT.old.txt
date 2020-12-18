@@ -1,0 +1,46 @@
+Personal access tokens
+ 
+Tokens you have generated that can be used to access the GitHub API.
+
+Make sure to copy your new personal access token now. You won’t be able to see it again!
+
+ cf0e4a90c04a757e1e7af91b4b2808be8fbbaf17 
+ 
+Personal access tokens function like ordinary OAuth access tokens. They can be used instead of a password 
+for Git over HTTPS, or can be used to authenticate to the API over Basic Authentication.
+
+-------------------------------------------------------------------
+
+How to solve it
+To solve this problem all we need to do is create a GitHub personal access token and use it 
+instead of our GitHub password and a two-factor authentication code.
+
+Creating a GitHub personal access token.
+
+In the upper-right corner of any page, click your profile photo, then click Settings.
+
+In the left sidebar, click Developer settings.
+
+In the left sidebar, click Personal access tokens.
+
+Click Generate new token.
+
+Give your token a descriptive name.
+
+Select the scopes, or permissions, you’d like to grant this token. To use your token to 
+access repositories from the command line, select repo.
+
+Click Generate token.
+
+Copy the token to your clipboard. For security reasons, after you navigate off the page, 
+you will not be able to see the token again.
+
+------------------------------------
+
+repo Full control of private repositories
+ repo:status Access commit status
+ repo_deployment Access deployment status
+ public_repo Access public repositories
+ repo:invite Access repository invitations
+ security_events Read and write security events
+ 
